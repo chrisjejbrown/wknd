@@ -1,0 +1,19 @@
+{
+  "project": "Success Edge Firstsite",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": [ "edit" ],
+      "url": "https://main--franklin--chrisjejbrown.hlx.live/tools/sidekick/library.html",
+      "includePaths": [ "**.docx**" ]
+    },
+    {
+      "id": "assets",
+      "title": "Assets",
+      "environments": [ "edit" ],
+      "url": "https://wknd.findmy.media/",
+      "includePaths": [ "**.docx**" ]
+    }
+  ]
+}
