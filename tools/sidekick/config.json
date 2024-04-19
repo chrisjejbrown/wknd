@@ -1,5 +1,5 @@
 {
-  "project": "Success Edge Firstsite",
+  "project": "Edge Delivery Services",
   "plugins": [
     {
       "id": "library",
@@ -13,19 +13,13 @@
       ]
     },
     {
-      "project": "Success Edge Firstsite",
-      "plugins": [
-        {
-          "id": "generate-variations",
-          "title": "Generate Variations",
-          "url": "https://experience.adobe.com/aem/generate-variations",
-          "passConfig": true,
-          "environments": ["edit"],
-          "includePaths": ["**.docx**"]
-        }
-      ]
-    }
-    ,
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": ["edit"],
+      "includePaths": ["**.docx**"]
+    },
     {
       "id": "asset-library",
       "title": "AEM Assets Library",
